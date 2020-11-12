@@ -1,0 +1,1 @@
+This folder, although empty, should remain on your server and it should be writable.

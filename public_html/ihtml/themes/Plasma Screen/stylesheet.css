@@ -1,0 +1,217 @@
+/** The font style of the entire site. */
+body {
+	background-color: #ffffff; 
+}
+
+INPUT, SELECT, TEXTAREA, .subtitleBold, .normal, .formHeader, .inspirationText, .inspirationFooter, .inspirationHeader, .normalSmall, .titleBold, .normalRed, A, A:hover, A.smallLink, A.smallLink:hover {
+	font-family: Arial, Helvetica, sans-serif; /** {Main_Font_Family} */
+}
+
+/** The size of most 'average' text. */
+
+.normal, .normalRed, A, A:hover {
+	font-size: 12px; /** {Regular_Text} */
+}
+
+.normal
+{
+	color: black; /** {Regular_Text} */
+}
+
+INPUT
+{
+	font-size: 12px; /** {INPUT_Text} */
+	color: black; /** {INPUT_Text} */
+	background-color: #E0E2E0; /** {INPUT_Text} */
+}
+
+SELECT
+{
+	font-size: 12px; /** {SELECT_Text} */
+	color: black; /** {SELECT_Text} */
+	background-color: #E0E2E0; /** {SELECT_Text} */
+}
+
+TEXTAREA
+{
+	font-size: 12px; /** {SELECT_Text} */
+	color: black; /** {SELECT_Text} */
+	background-color: #E0E2E0; /** {SELECT_Text} */
+}
+
+A.smallLink, .normalSmall { 
+	font-size: 11px; /** {Small_Links} */
+	color: white; /** {Small_Links} */
+	text-decoration: none; /** {Small_Links} */
+}
+
+A.smallLink:hover{ 
+	font-size: 11px; /** {Small_Links_Hover} */
+	text-decoration: none; /** {Small_Links_Hover} */
+	color: #6699CC;/** {Small_Links_Hover} */
+}
+
+A, .menu_low {
+	color: #3E23FB; /** {Regular_Links} */
+	text-decoration: none; /** {Regular_Links} */
+	font-weight: normal;
+}
+
+A:hover, .menu_highlighted  {
+	color: #6699CC; /** {Regular_Links_Hover} */
+} 
+
+.inspirationHeader, .headerBackground {
+}
+
+.formHeader 
+{
+	font-size: 12px; /** {Form_Header} */
+	padding: 4px;
+	background-color: #AFB1FF; /** {Form_Header} */
+	color: #050295; /** {Form_Header} */
+	font-weight: bold; /** {Form_Header} */
+}
+
+.white {
+	background-color: #E2DEF7; /** {Form_Backgounds} */
+}
+
+
+.menu_highlighted {
+	background-color: #E2DEF7; /** {Menu_Highlighted} */
+	font-weight: normal; /** {Menu_Highlighted} */
+}
+
+.menu_low {
+	background-color: #E2DEF7; /** {Menu_Low} */
+	font-weight: normal; /** {Menu_Low} */
+}
+
+.inspirationText
+{
+	font-size: 12px; /** {Inspiration_Text} */
+	color: white; /** {Inspiration_Text} */
+}
+
+.inspirationFooter
+{
+	font-size: 12px; /** {Inspiration_Footer} */
+	color: white; /** {Inspiration_Footer} */
+}
+
+.titleBold {
+	font-size: 36px;
+	font-weight: bolder;
+
+}
+.normalRed {
+	color: #FF0000;
+}
+
+
+.subtitleBold {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.background {
+	background-image: url("images/background.gif"); 
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #D4CFF0; /** {Background} */
+}
+
+.border {
+	background-color: #050295; /** {Border} */
+}
+
+/** Parts that make up the "sticker" */
+
+.inspirationAboveLeft {
+	font-size: 14px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-image: url("images/sticker_t_l.gif");
+}
+.inspirationAbove {
+	font-size: 14px;
+	font-weight: bold;
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	background-image: url("images/sticker_t.gif");
+}
+.inspirationAboveRight {
+	font-size: 14px;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-image: url("images/sticker_t_r.gif");
+}
+.inspirationHeader, .headerBackground {
+	font-size: 14px; /** {Inspiration_Header} */
+	font-weight: bold; /** {Inspiration_Header} */
+	background-color: #FFF0C0; /** {Inspiration_Header} */
+	padding-top: 5px; /** {Inspiration_Header} */
+	padding-bottom: 5px; /** {Inspiration_Header} */
+	padding-left: 5px; /** {Inspiration_Header} */
+	padding-right: 5px; /** {Inspiration_Header} */
+	text-align: left;  /** {Inspiration_Header} */
+	vertical-align: top; /** {Inspiration_Header} */
+}
+
+.inspirationLeft
+{
+	background: none;
+	background-repeat: repeat-y ;
+	background-position: right top;
+	background-image: url("images/sticker_l.gif");
+}
+.inspirationBody
+{
+	background: black;
+	background-repeat: repeat-y ;
+	background-position: left top;
+	background-image: url("images/sticker_in.gif");
+}
+.inspirationRight
+{
+	background: none;
+	background-repeat: repeat-y ;
+	background-position: left top;
+	background-image: url("images/sticker_r.gif");
+}
+.inspirationBelowLeft
+{
+	background: none;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-image: url("images/sticker_b_l.gif");
+}
+.inspirationBelow
+{
+	background: none;
+	background-position: center top;
+	background-image: url("images/sticker_b.gif");
+}
+.inspirationBelowRight
+{
+	background: none;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url("images/sticker_b_r.gif");
+}
+
+
+table.clear { background: White;  border: 1px solid #66CCCC;  }
+
+form { margin:0; padding:0; }
+
+.bottom-border {
+	font-size: 12px;
+	color: black;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF0C0;
+}
